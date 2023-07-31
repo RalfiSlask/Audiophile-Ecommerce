@@ -4,8 +4,7 @@ const Context = createContext({})
 
 export const ContextProvider = ( {children}) => {
     const [screenWitdh, setScreenWidth] = useState(window.innerWidth);
-    const [isMobile, setIsMobile] = useState(false)
-    const [isDesktop, setIsDesktop] = useState(false)
+    const [screenType, setScreenType] = useState("")
 
     useEffect(() => {
         const handleResize = () => {
@@ -19,14 +18,22 @@ export const ContextProvider = ( {children}) => {
     })
 
     useEffect(() => {
-        screenWitdh < 772 ? setIsMobile(true) : setIsMobile(false)
-        screenWitdh > 1280 ? setIsDesktop(true) : setIsDesktop(false)
-    }, [screenWitdh, isDesktop, isMobile])
+        if(screenWitdh < 772) {
+            setScreenType("mobile")
+        } else if(screenWitdh < 1280) {
+            setScreenType("tablet")
+        } else {
+            setScreenType("desktop")
+        }
+    }, [screenWitdh, screenType])
+
+    useEffect(() => {
+        console.log(screenWitdh)
+    })
 
     const contextValue = {
         screenWitdh: screenWitdh,
-        isDesktop: isDesktop,
-        isMobile: isMobile,
+        screenType: screenType,
     };
 
     return (
