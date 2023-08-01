@@ -1,9 +1,9 @@
-import Header from "../../components/Header/Header"
+import Header from "../../components/shared/Header"
 import BringingYouTheBest from "../../components/shared/BringingYouTheBest"
 import ShopNavbar from "../../components/shared/ShopNavbar"
 import BlackUnderHeader from "./BlackUnderHeader"
 import SampleProducts from "./SampleProducts"
-import Footer from "../../components/shared/Footer"
+import Footer from "../../components/shared/footer/Footer"
 
 const Home = () => {
   return (
@@ -13,8 +13,8 @@ const Home = () => {
         <BlackUnderHeader />
     </header>
     <main className="flex flex-col items-center">
-      <ShopNavbar />
       <section>
+        <ShopNavbar />
         <SampleProducts />
         <BringingYouTheBest />
       </section>
