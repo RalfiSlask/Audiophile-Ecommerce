@@ -13,7 +13,6 @@ module.exports = {
         'center-center': 'center center',
         'center-bottom': 'center bottom',
       },
-      
     },
   },
   plugins: [],

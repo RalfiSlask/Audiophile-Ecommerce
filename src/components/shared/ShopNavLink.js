@@ -15,7 +15,7 @@ const ShopNavLink = ( {title} ) => {
       } else if(title === "speakers") {
         setLogo(speakers)
       }
-    }, [])
+    }, [title])
 
   return (
       <div className="h-[217px] w-[327px] md:w-[223px] xl:w-[350px] flex items-end relative">
