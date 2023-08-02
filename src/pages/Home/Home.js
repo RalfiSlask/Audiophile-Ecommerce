@@ -8,19 +8,18 @@ import Footer from "../../components/shared/footer/Footer"
 const Home = () => {
   return (
     <> 
-    <header className="relative">
+    <header className="relative w-full">
         <Header /> 
         <BlackUnderHeader />
     </header>
-    <main className="flex flex-col items-center">
-      <section>
+    <main className="flex flex-col items-center w-[327px] md:w-[689px] xl:w-[1110px]">
+      <section className="flex flex-col items-center">
         <ShopNavbar />
         <SampleProducts />
         <BringingYouTheBest />
       </section>
-        <Footer />
     </main>
-   
+    <Footer />
     </>
   )
 }

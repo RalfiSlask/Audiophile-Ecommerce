@@ -16,7 +16,7 @@ root.render(
             <Route exact path="/" element = {<Home />}/>  
             <Route path="/category" element = {<Category />}/>  
             <Route path="/checkout" element = {<Checkout />}/>  
-            <Route path="/product/:id" element = {<ProductDetail />}/>  
+            <Route path="/product" element = {<ProductDetail />}/>  
         </Routes>
     </HashRouter>
     </ContextProvider>
