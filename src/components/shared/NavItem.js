@@ -7,6 +7,7 @@ const NavItem = ( {text} ) => {
   const { setCategoryOnClick } = useContext(Context)
 
   const handleClick = () => {
+    window.scrollTo(0, 0)
     if(text === "home") {
       navigate("/");
     } else {

@@ -21,7 +21,7 @@ const BringingYouTheBest = () => {
   return (
     <div className="flex flex-col xl:flex-row-reverse justify-between w-full h-[698px] md:h-[633px] xl:h-[588px] items-center mt-[120px] xl:mt-[200px]">
         <div className="w-full h-[300px] xl:h-full rounded-lg xl:w-[540px]">
-            <img src={image} alt="guy listening to music" className="h-full w-full object-cover rounded-lg"/>
+            <img src={image} alt="guy listening to music" className="object-cover w-full h-full rounded-lg"/>
         </div>
         <div className="h-[358px] w-[327px] md:h-[270px] md:w-[573px] xl:h-[295px] xl:w-[445px] text-center xl:text-start flex flex-col justify-between">
             <h1 className="text-[28px] uppercase font-bold  tracking[1px] md:text-[40px] md:tracking-[1.429px] md:leading-[44px]">Bringing you the <span className="text-[#D87D4A]">best</span> audio gear</h1>
