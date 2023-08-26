@@ -28,7 +28,7 @@ const PaymentInput = ( {value, isCash, onClick} ) => {
             type="text" 
             readOnly 
             defaultValue={value}
-            className='cursor-pointer absolute outline-none left-[50px] w-[200px] h-[42px] text-[14px] font-bold leading-normal tracking-[-0.25px] top-1/2 -translate-y-1/2'>
+            className='cursor-pointer absolute outline-none left-[50px] w-[120px] h-[42px] text-[14px] font-bold leading-normal tracking-[-0.25px] top-1/2 -translate-y-1/2'>
         </input>
     </div>
   )
