@@ -155,8 +155,6 @@ export const ContextProvider = ( {children}) => {
     useEffect(() => {
         if(buttonPressed && validList.length > 0) {
             const allInputsValid = validList.every(input => input.isValid)
-            console.log(allInputsValid)
-            console.log(validList)
             if(allInputsValid) {
                 openModal("thankyou")
             } 
