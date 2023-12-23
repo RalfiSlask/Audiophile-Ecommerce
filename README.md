@@ -10,9 +10,16 @@
 - React
 - Tailwind CSS
 
+# Formatting
+
+This projects uses code standars by appling the dependecies eslint and prettier tools:
+
+- eslint: identifies bugs and patterns to make the code more consistent
+- prettier: code formatter
+
 ## Live Demo
 
-Explore the live demo of the Memory Game [here](https://ralfislask.github.io/Audiophile-Ecommerce/).
+Explore the live demo of the Audiophile E-commerce website [here](https://ralfislask.github.io/Audiophile-Ecommerce/).
 
 ## Status
 
@@ -20,7 +27,7 @@ This project is marked as "Finished."
 
 ## Getting Started
 
-To run the Memory Game on your local machine, follow these steps:
+To run the Audiophile E-commerce website on your local machine, follow these steps:
 
 1. Download or clone the repository.
 2. Install the necessary dependencies by running `npm install`.

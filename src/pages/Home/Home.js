@@ -16,15 +16,15 @@ const Home = () => {
 
   return (
     <>
-      <header className="relative w-full">
+      <header className='relative w-full'>
         <Header />
         <BlackUnderHeader />
         {cart && <CartModal />}
         {shop && <ModalShop />}
       </header>
       {lightbox && <Lightbox />}
-      <main className="flex flex-col items-center w-[327px] md:w-[689px] xl:w-[1110px]">
-        <section className="flex flex-col items-center mb-[120px] xl:mb-[160px]">
+      <main className='flex flex-col items-center w-[327px] md:w-[689px] xl:w-[1110px]'>
+        <section className='flex flex-col items-center mb-[120px] xl:mb-[160px]'>
           <ShopNavbar />
           <SampleProducts />
           <BringingYouTheBest />
