@@ -1,9 +1,5 @@
-
-
 const MediumHeading = () => {
-  return (
-    <h1></h1>
-  )
-}
+  return <h1></h1>;
+};
 
-export default MediumHeading
+export default MediumHeading;
